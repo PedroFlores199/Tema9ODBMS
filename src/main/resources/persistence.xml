@@ -1,0 +1,8 @@
+<persistence xmlns="http://xmlns.jcp.org/xml/ns/persistence" version="2.1">
+    <persistence-unit name="personas.odb">
+        <class>org.example.Persona</class>
+        <properties>
+            <property name="javax.persistence.jdbc.url" value="objectdb://localhost/personas.odb"/>
+        </properties>
+    </persistence-unit>
+</persistence>
